@@ -1,6 +1,6 @@
 import os
 
-source_dir = "/mnt/projects"
+source_dir = "s:/"
 project_name = "cloudForest"
 season_name = "001"
 
