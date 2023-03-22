@@ -1,8 +1,8 @@
 import os
 
 source_dir = "/mnt/projects"
-project_name = "cruize"
-season_name = "season_01_desert"
+project_name = "cloudForest"
+season_name = "001"
 
 # Create the project folder inside the source directory
 project_path = os.path.join(source_dir, project_name)
@@ -11,7 +11,9 @@ os.makedirs(project_path)
 # Create the assets folder inside the project folder
 assets_path = os.path.join(project_path, "assets")
 os.makedirs(assets_path)
-
+os.makedirs(os.path.join(project_path, "out"))
+os.makedirs(os.path.join(project_path, "edit"))
+os.makedirs(os.path.join(project_path, "ref"))
 # Create the props, vehicles, env, and character folders inside the assets folder
 props_path = os.path.join(assets_path, "props")
 os.makedirs(props_path)
